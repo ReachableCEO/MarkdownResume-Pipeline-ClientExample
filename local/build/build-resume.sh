@@ -40,7 +40,7 @@ export CandidateTagline="Your.Tagline.Here."
 export CandidateLogo=""
 export SourceCode="https://git.knownelement.com/reachableceo/MarkdownResume-Pipeline"
 export URLCOLOR="blue"
-export PAGEBACKGROUND="./background3.pdf"
+export PAGEBACKGROUND="$PipelineClientWorkingDir/build/background3.pdf"
 
 ##########################
 # Candidate info sheet
@@ -87,7 +87,7 @@ export CandidateRateSheetRemote1099HourlyPrefer="\$78.90"
 ##################################################################
 
 
-export MO_PATH="bash ../vendor/git.knownelement.com/ExternalVendorCode/mo/mo"
+export MO_PATH="bash ../../vendor/git.knownelement.com/ExternalVendorCode/mo/mo"
 export BUILD_OUTPUT_DIR="$PipelineClientWorkingDir/build-output"
 export BUILD_TEMP_DIR="$PipelineClientWorkingDir/build-temp"
 export BUILDYAML_JOBBOARD="$BUILD_TEMP_DIR/JobBoard.yml"
