@@ -1,6 +1,19 @@
 #!/bin/bash
 
-# A wrapper script around ../vendor/git.knownelement.com/reachableceo/MarkdownResume-Pipeline/build/build.sh
+# A client script to setup variables for and execute:
+#../vendor/git.knownelement.com/reachableceo/MarkdownResume-Pipeline/build/build-pipeline-server.sh
+
+
+#############################################################################
+#SET THIS OR NOTHING WILL WORK
+export PipelineClientWorkingDir="D:/tsys/@ReachableCEO/MarkdownResume-Pipeline-ClientExample/local/"
+#SET THIS OR NOTHING WILL WORK
+#############################################################################
+
+#############################################################################
+#If you want a quick demo, you can leave the below values un-changed. Otherwise
+#modify them to refelect your details/preferences.
+#############################################################################
 
 ########################
 # Contact info
@@ -64,7 +77,6 @@ export CandidateRateSheetRemoteW2HourlyPrefer="\$34.56"
 export CandidateRateSheetRemoteW2AnnualPrefer="\$321,987.00"
 export CandidateRateSheetRemote1099HourlyPrefer="\$78.90"
 
-export PipelineClientWorkingDir="D:/tsys/@ReachableCEO/MarkdownResume-Pipeline-ClientExample/local/"
 
 ####################################################
 #DO NOT CHANGE ANYTHING BELOW THIS LINE
@@ -95,4 +107,4 @@ ClientSubmissionMSWordOutputFile="$BUILD_OUTPUT_DIR/client-submission/Resume.doc
 
 # Call the build-pipeline-server in the vendored repository to produce output artifacts
 
-../vendor/git.knownelement.com/reachableceo/MarkdownResume-Pipeline/build/build-pipeline-server.sh
+bash ../vendor/git.knownelement.com/reachableceo/MarkdownResume-Pipeline/build/build-pipeline-server.sh
