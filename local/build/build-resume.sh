@@ -64,7 +64,7 @@ export CandidateRateSheetRemoteW2HourlyPrefer="\$34.56"
 export CandidateRateSheetRemoteW2AnnualPrefer="\$321,987.00"
 export CandidateRateSheetRemote1099HourlyPrefer="\$78.90"
 
-export PipelineClientWorkingDir="Full path to the client local directory"
+export PipelineClientWorkingDir="D:/tsys/@ReachableCEO/MarkdownResume-Pipeline-ClientExample/local/"
 
 ####################################################
 #DO NOT CHANGE ANYTHING BELOW THIS LINE
