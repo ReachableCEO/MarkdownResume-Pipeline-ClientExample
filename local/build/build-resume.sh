@@ -6,7 +6,7 @@
 
 #############################################################################
 #SET THIS OR NOTHING WILL WORK
-export PipelineClientWorkingDir="D:/tsys/@ReachableCEO/MarkdownResume-Pipeline-ClientExample/local/"
+export PipelineClientWorkingDir="D:/tsys/@ReachableCEO/MarkdownResume-Pipeline-ClientExample/local"
 #SET THIS OR NOTHING WILL WORK
 #############################################################################
 
@@ -102,7 +102,7 @@ JobBoardPDFOutputFile="$BUILD_OUTPUT_DIR/job-board/Resume.pdf"
 JobBoardMSWordOutputFile="$BUILD_OUTPUT_DIR/job-board/Resume.doc"
 
 ClientSubmissionMarkdownOutputFile="$BUILD_OUTPUT_DIR/client-submission/Resume.md"
-ClientSubmissionPDFOutputFile="$BUILD_OUTPUT_DIR/client-submission//Resume.pdf"
+ClientSubmissionPDFOutputFile="$BUILD_OUTPUT_DIR/client-submission/Resume.pdf"
 ClientSubmissionMSWordOutputFile="$BUILD_OUTPUT_DIR/client-submission/Resume.doc"
 
 # Call the build-pipeline-server in the vendored repository to produce output artifacts
