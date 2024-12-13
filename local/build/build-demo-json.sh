@@ -26,6 +26,7 @@ source "./CandidateVariables.env"
 export MO_PATH="bash ../../vendor/git.knownelement.com/ExternalVendorCode/mo/mo"
 
 export BUILD_OUTPUT_DIR="$PipelineClientWorkingDir/build-output/JSONResume"
+export JSON_TEMPLATE_DIRECTORY="$PipelineClientWorkingDir/Templates/JSONResume/"
 
 export JobBoardJSONOutputFile="$BUILD_OUTPUT_DIR/job-board/Candidate-Resume.json"
 export ClientSubmissionJSONOutputFile="$BUILD_OUTPUT_DIR/client-submit/Candidate-Resume.json"
