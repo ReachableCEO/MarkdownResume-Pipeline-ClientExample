@@ -33,7 +33,7 @@ export BUILDYAML_CLIENTSUBMISSION="$BUILD_TEMP_DIR/ClientSubmission.yml"
 export BUILDYAML_CANDIDATEINFOSHEET="$BUILD_TEMP_DIR/CandidateInfoSheet.yml"
 
 export CandidateInfoSheetMarkdownOutputFile="$BUILD_OUTPUT_DIR/recruiter/CandidateInfoSheet.md"
-export CandidateInfoSheetPDFOutputFIle="$BUILD_OUTPUT_DIR/recruiter/CandidateInfoSheet.pdf"
+export CandidateInfoSheetPDFOutputFile="$BUILD_OUTPUT_DIR/recruiter/CandidateInfoSheet.pdf"
 
 export JobBoardMarkdownOutputFile="$BUILD_OUTPUT_DIR/job-board/Candidate-Resume.md"
 export JobBoardPDFOutputFile="$BUILD_OUTPUT_DIR/job-board/Candidate-Resume.pdf"
