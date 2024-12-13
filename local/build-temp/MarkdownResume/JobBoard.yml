@@ -1,0 +1,12 @@
+title: "First Middle Last Resume"
+titlepage: true
+titlepage-logo: ""
+date: \today
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "First Middle Last"
+footer-center: "Your.Tagline.Here."
+footer-right: "[Source code](https://git.knownelement.com/reachableceo/MarkdownResume-Pipeline)"
+urlcolor: blue
+page-background: "D:/tsys/@ReachableCEO/MarkdownResume-Pipeline-ClientExample/local/build/background3.pdf"
