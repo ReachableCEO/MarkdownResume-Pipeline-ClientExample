@@ -47,7 +47,7 @@ echo "Cleaning up from previous runs..."
 
 rm $BUILDYAML_CANDIDATEINFOSHEET
 rm $CandidateInfoSheetMarkdownOutputFile
-rm $CandidateInfoSheetPDFOutputFIle
+rm $CandidateInfoSheetPDFOutputFile
 
 rm $BUILDYAML_JOBBOARD
 rm $JobBoardMarkdownOutputFile
