@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 # This is a demo script for the MarkdownResumePipeline server
 # This script creates PDF/MSWord output from markdown/csv input
 
@@ -23,8 +25,8 @@ source "./CandidateVariables.env"
 ######################################################################################
 
 readonly MO_PATH="bash ../../vendor/git.knownelement.com/ExternalVendorCode/mo/mo"
-readonly BUILD_OUTPUT_DIR="../build-output/MarkdownResume/"
-readonly BUILD_TEMP_DIR="../build-temp/MarkdownResume/"
+readonly BUILD_OUTPUT_DIR="../build-output/MarkdownResume"
+readonly BUILD_TEMP_DIR="../build-temp/MarkdownResume"
 readonly BUILDYAML_JOBBOARD="$BUILD_TEMP_DIR/JobBoard.yml"
 readonly BUILDYAML_CLIENTSUBMISSION="$BUILD_TEMP_DIR/ClientSubmission.yml"
 readonly BUILDYAML_CANDIDATEINFOSHEET="$BUILD_TEMP_DIR/CandidateInfoSheet.yml"
@@ -56,4 +58,4 @@ rm $ClientSubmissionMarkdownOutputFile
 rm $ClientSubmissionPDFOutputFile
 rm $ClientSubmissionMSWordOutputFile
 
-bash ../../vendor/git.knownelement.com/reachableceo/MarkdownResume-Pipeline/build/build-pipeline-server-markdown.sh
+bash ../../vendor/git.knownelement.com/reachableceo/MarkdownResume-Pipeline/build/build-pipeline-server-markdown.sh  
