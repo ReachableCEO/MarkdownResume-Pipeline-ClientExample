@@ -1,5 +1,6 @@
 # Use a base image with Pandoc and LaTeX
-FROM pandoc/latex:latest
+FROM ubuntu:24.04
+
 
 # Set working directory
 WORKDIR /app
@@ -8,6 +9,7 @@ WORKDIR /app
 RUN apt-get update && \
     apt-get install -y \
     bash \
+    pandoc \
     git \
     && rm -rf /var/lib/apt/lists/*
 

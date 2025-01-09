@@ -5,9 +5,9 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # Check if the environment variables file exists
-ENV_FILE="/env/CandidateVariables.env"
+ENV_FILE="/env/ResumeVariables.env"
 if [[ ! -f "$ENV_FILE" ]]; then
-  echo "Error: Environment variables file not found at $ENV_FILE"
+  echo "Error: Inside script: Environment variables file not found at $ENV_FILE"
   exit 1
 fi
 
