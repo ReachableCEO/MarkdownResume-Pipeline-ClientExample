@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  markdown_pipeline_client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./ResumeInput:/app/ResumeInput
+      - ./ResumeOutput:/app/ResumeOutput
+      - ./env/CandidateVariables.env:/env/CandidateVariables.env:ro
+    command: ["/app/build-pipeline-client-markdown.sh"]
