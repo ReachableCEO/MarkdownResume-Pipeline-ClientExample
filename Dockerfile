@@ -25,8 +25,8 @@ RUN git clone https://git.knownelement.com/ExternalVendorCode/mo.git /app/vendor
 ENV MO_PATH=/app/vendor/mo/mo
 ENV PIPELINE_SERVER_SCRIPT=/app/vendor/MarkdownResume-Pipeline/build/build-pipeline-server-markdown.sh
 
-# Set volumes for input and output
-VOLUME ["/ResumeInput", "/ResumeOutput"]
+# Set volumes for environment, input and output
+VOLUME ["/env", "/ResumeInput", "/ResumeOutput"]
 
 # Set the default command to execute the client script
 CMD ["/app/build-pipeline-client-markdown.sh"]
